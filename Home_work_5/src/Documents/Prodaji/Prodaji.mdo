@@ -23,8 +23,18 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Prodaji.Form.DocumentForm</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="f0c466ee-31b5-4c10-bb66-50c73ccb76de">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="7af7d1a0-ec90-41a7-8866-c7aec399a7e5">
     <producedTypes>
       <objectType typeId="43fdd04a-2782-434a-b616-2e49e838f4bf" valueTypeId="b9248b98-2b5f-4480-aa51-467ed3cb06d4"/>
