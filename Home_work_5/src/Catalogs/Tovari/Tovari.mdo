@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a4e88f-7971-4e01-a20b-11819cb8fe7c">
+  <producedTypes>
+    <objectType typeId="a9ac8add-2711-441c-8ee3-f22c7bacab24" valueTypeId="4c41a12c-0d59-4982-a937-99437c5c5113"/>
+    <refType typeId="e3ee8316-cd18-4b5b-977d-e768a472f2ed" valueTypeId="1664cd7d-46ee-4e9a-a7b7-c9194190d77b"/>
+    <selectionType typeId="b99c9af6-641c-4ca2-988f-05a4c91ccd81" valueTypeId="03822cae-2109-479e-8041-e8d6dbda9a6c"/>
+    <listType typeId="a5777c47-d15c-4017-b740-c954e3a91e36" valueTypeId="b8b8cefd-29c3-45cf-a79e-ba304d21336b"/>
+    <managerType typeId="38be0983-2f13-4f84-93e0-4b2f7bb98404" valueTypeId="1e62d6de-70dd-4112-8e7d-c5c18cfc7226"/>
+  </producedTypes>
+  <name>Tovari</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tovari</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Tovari.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Tovari.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
